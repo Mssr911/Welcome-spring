@@ -1,0 +1,1 @@
+insert into languages (welcome, code) values ('Hallo', 'ger');
