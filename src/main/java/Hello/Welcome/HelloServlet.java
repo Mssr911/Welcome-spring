@@ -14,7 +14,7 @@ class HelloServlet {
     private HelloService service;
 
 
-    public HelloServlet(HelloService service){
+    public HelloServlet(HelloService service) {
         this.service = service;
     }
 

@@ -18,12 +18,12 @@ class LangServlet {
 
     private LangService service;
 
-    public LangServlet(LangService service){
+    public LangServlet(LangService service) {
         this.service = service;
     }
 
     @GetMapping("/langs")
-     ResponseEntity<List<LangDTO>> findAllLanguages() {
+    ResponseEntity<List<LangDTO>> findAllLanguages() {
         logger.info("Got request");
         return ResponseEntity.ok(service.findAll());
     }

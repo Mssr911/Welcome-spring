@@ -18,7 +18,8 @@ class Todo {
     private String text;
     private boolean done;
 
-    public Todo() {}
+    public Todo() {
+    }
 
     public Integer getId() {
         return id;
