@@ -11,7 +11,7 @@
 	<groupId>Hello</groupId>
 	<artifactId>Welcome-Spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Welcome-Spring</name>
+	<name>Hello.Welcome-Spring</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-class LangServlet extends HttpServlet {
+class LangServlet {
 
     private final Logger logger = LoggerFactory.getLogger(LangServlet.class);
 

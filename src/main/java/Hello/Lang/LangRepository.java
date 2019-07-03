@@ -8,9 +8,11 @@ import java.util.List;
 
 @Repository
 public interface LangRepository extends JpaRepository<Lang, Integer> {
-// <Klasa, typ ID>
+// <Klasa z której czerpię, typ ID>
 
-    List<Lang> findByCode(String code);
+    List<Lang> findByCode(String code); //to już zadziała i będzie znajdować po kodzie
+
+    // findAll jest już w JpaRepository
 
 
 }
